@@ -1,5 +1,18 @@
 body {
-	min-height: 100vh;
+	background: url('img/background.jpg')center/cover no-repeat;
+	color: white;
+	text-align: center;
+}
+
+h3 {
+	font-size: 30px;
+	font-family: sans-serif;
+	font-weight: bolder;
+	text-decoration: underline;
+}
+
+#foundation {
+	min-height: 80vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -7,7 +20,7 @@ body {
 }
 
 .images {
-	flex:0 0 80%;
+	flex:0 0 50%;
 	min-height: 70vh;
 	background: url('img/background.jpg')center/cover no-repeat;
 	border-radius: 15px;
