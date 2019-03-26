@@ -8,6 +8,7 @@ h3 {
 	font-size: 30px;
 	font-family: sans-serif;
 	font-weight: bolder;
+	font-style: italic;
 	text-decoration: underline;
 }
 
@@ -21,7 +22,7 @@ h3 {
 
 .images {
 	flex:0 0 50%;
-	min-height: 70vh;
+	min-height: 60vh;
 	background: url('img/background.jpg')center/cover no-repeat;
 	border-radius: 15px;
 	box-shadow: 5px 10px black;
@@ -59,4 +60,39 @@ h3 {
 	align-self: center;
 	margin-right: -30px;
 	outline: none;
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .images {
+		min-height: 60vh;
+		min-width: 90%;
+	}
+
+	.prevBtn {
+		align-self: flex-start;
+	}
+
+	.nextBtn {
+		align-self: flex-end;
+	}
+  
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  .images {
+		min-height: 60vh;
+		min-width: 90%;
+	}
+
+	.prevBtn {
+		align-self: flex-start;
+	}
+
+	.nextBtn {
+		align-self: flex-end;
+	}
+  
 }
